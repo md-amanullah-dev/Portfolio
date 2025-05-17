@@ -17,25 +17,25 @@ const SocialLink = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/amit-sahu-39387a262",
+      href: "linkedin.com/in/md-amanullah-ba7b17251",
       style: 'bg-blue-500 '
     },
     {
       id: 2,
       child: (<> GitHUb <FaGithub size={30} /> </>),
-      href: "https://github.com/sahuami",
+      href: "https://github.com/md-amanullah-dev",
       style: 'bg-gray-700'
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Twitter <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/sahuami2000",
-      style: 'bg-gray-600'
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Twitter <FaTwitter size={30} />
+    //     </>
+    //   ),
+    //   href: "",
+    //   style: 'bg-gray-600'
+    // },
 
     {
       id: 4,
@@ -44,7 +44,7 @@ const SocialLink = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:sahuami2000@gmail.com",
+      href: "mailto:amana170829@gmail.com",
       style: 'bg-blue-800'
     },
   ]

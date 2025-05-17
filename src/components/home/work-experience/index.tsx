@@ -41,42 +41,36 @@ type Experience = {
 
 // Experience data
 const experiences: Experience[] = [
-  {
-    role: "Frontend Developer",
-    company: "Tech Solutions",
-    duration: "Jan 2022 - Present",
-    description: "Developing cutting-edge web applications using Next.js, React, and Tailwind CSS.",
-    technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    companyLogo: "/placeholder.svg?height=48&width=48",
-    color: "from-blue-400 to-blue-600",
-  },
-  {
-    role: "UI/UX Designer",
-    company: "Creative Agency",
-    duration: "Jun 2020 - Dec 2021",
-    description: "Designing interactive and user-friendly interfaces for web and mobile apps.",
-    technologies: ["Figma", "Adobe XD", "UI/UX Design"],
-    companyLogo: "/placeholder.svg?height=48&width=48",
-    color: "from-purple-400 to-purple-600",
-  },
+  
   {
     role: "Full Stack Developer",
-    company: "Web Innovators",
-    duration: "Mar 2019 - May 2020",
-    description: "Worked on both front-end and back-end development of an e-commerce platform using Node.js, Express, and React.",
-    technologies: ["Node.js", "Express", "React", "MongoDB"],
-    companyLogo: "/placeholder.svg?height=48&width=48",
-    color: "from-green-400 to-green-600",
+    company: "BytesBrick InfoSystems OPC Pvt Ltd(Technovatic Solutions)",
+    duration: "May 2024 - Present",
+    description: "Started as a Full Stack Intern and transitioned to a full-time Developer role. Contributed to projects like Collage ke Tashanbaaz, Rider Music Festival CMS (RedFM), YKZini (API), EtBri Craft My Jewellery, Escort, and recently working on the Satyahindi News website.",
+    technologies: [ "HTML","Taiwind" , "Design","React.js","node.js", "Express.js", "Mysql", "SQL" ,"radis"],
+    companyLogo: "/logo.png",
+    color: "from-purple-400 to-purple-600",
   },
+
+
   {
-    role: "Backend Developer",
-    company: "DataTech Solutions",
-    duration: "Jan 2018 - Feb 2019",
-    description: "Focused on developing and optimizing APIs and database architecture using Java and PostgreSQL.",
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
-    companyLogo: "/placeholder.svg?height=48&width=48",
-    color: "from-red-400 to-red-600",
-  },
+    role: "Full Stack Developer Intern",
+    company: "TechIdol Solutions",
+    duration: "Aug 2023 – Nov 2023",
+    description: "At TechIdol Solutions, I gained valuable experience as a web developer during my internship. My proficiency in React.js, Node.js, Express.js, and MongoDB allowed me to create highly interactive and visually engaging web applications, leveraging my strong foundation in these technologies to produce exceptional user experiences.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    companyLogo: "/default-company.png",
+    color: "from-green-400 to-green-600"
+  }
+  // {
+  //   role: "Backend Developer",
+  //   company: "DataTech Solutions",
+  //   duration: "Jan 2018 - Feb 2019",
+  //   description: "Focused on developing and optimizing APIs and database architecture using Java and PostgreSQL.",
+  //   technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+  //   companyLogo: "/placeholder.svg?height=48&width=48",
+  //   color: "from-red-400 to-red-600",
+  // },
 ];
 
 // Animation variants
@@ -138,7 +132,7 @@ const WorkExperience = () => {
                 >
                   <div>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className="w-12 h-12 relative rounded-full overflow-hidden bg-white p-1">
+                      <div className="h-12 w-16  relative rounded-full overflow-hidden bg-white p-1">
                         <Image
                           src={experience.companyLogo}
                           alt={experience.company}

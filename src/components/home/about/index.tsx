@@ -63,7 +63,7 @@ const About = () => {
               transition={{ duration: 0.3 }}
               className="text-muted-foreground"
             >
-              Hello, I&apos;m Md Amanullah, a passionate Web Developer, specializing in Front-End development...
+              Hello, I&apos;m Md Amanullah, a passionate Web Developer, specializing in Full Stack development...
             </motion.p>
           )}
         </AnimatePresence>
@@ -95,7 +95,7 @@ const About = () => {
               className="relative aspect-square rounded-2xl overflow-hidden"
             >
               <Image
-                src="/images/businessdev/AmitPhoto.png"
+                src="/images/businessdev/Profile_img.jpg"
                 alt="Profile"
                 fill
                 className="object-cover"
@@ -136,7 +136,7 @@ const About = () => {
                       </span>
                     </h4>
                     <p className="text-[16px] md:text-[18px] text-[#7B88A8]">
-                      Batch(2020-2024) / J.C. Bose University In Faridabad
+                      Batch(2020-2024) / Maulana Azad National Urdu University (Hyderabad)
                     </p>
                   </div>
                 </li>
@@ -144,10 +144,10 @@ const About = () => {
                 <li className="flex items-start space-x-2 text-[#2D3958]">
                   <div>
                     <h4 className="text-[18px] font-semibold">
-                      12th - Passed
+                    Diploma in Computer Science
                     </h4>
                     <p className="text-[16px] md:text-[18px] text-[#7B88A8]">
-                      Year - 2020 / Govt Boys Senior Secondary School No-1, Badarpur
+                    Batch(2017-2020) / Maulana Azad National Urdu University (Darbhanga)
                     </p>
                   </div>
                 </li>
@@ -157,7 +157,7 @@ const About = () => {
                       10th - Passed
                     </h4>
                     <p className="text-[16px] md:text-[18px] text-[#7B88A8]">
-                      Year - 2017 / Govt Boys Senior Secondary School No-3, Badarpur
+                      Year - 2017 / Golf field Railway Colony Hight School (Samastipur)
                     </p>
                   </div>
                 </li>
@@ -179,7 +179,7 @@ const About = () => {
                 <FaDownload className="mr-2 h-4 w-4" />
                 Download CV
               </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              {/* <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                 <FaEnvelope className="mr-2 h-4 w-4" />
                 Contact Me
               </Button>
@@ -188,7 +188,7 @@ const About = () => {
               </Button>
               <Button variant="ghost" size="icon" className="text-primary hover:bg-primary/20">
                 <FaLinkedin className="h-5 w-5" />
-              </Button>
+              </Button> */}
             </motion.div>
           </div>
         </motion.div>

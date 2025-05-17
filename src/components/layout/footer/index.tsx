@@ -118,10 +118,10 @@ const Footer = () => {
   
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/aniruddhaadak80", color: "text-purple-500", hoverBg: "hover:bg-purple-100/10" },
-    { icon: Linkedin, href: "https://linkedin.com/in/aniruddha-adak", color: "text-blue-500", hoverBg: "hover:bg-blue-100/10" },
-    { icon: Twitter, href: "https://twitter.com/aniruddha_adak", color: "text-sky-500", hoverBg: "hover:bg-sky-100/10" },
-    { icon: Mail, href: "mailto:aniruddhaadak80@gmail.com", color: "text-red-500", hoverBg: "hover:bg-red-100/10" },
+    { icon: Github, href: "https://github.com/md-amanullah-dev", color: "text-purple-500", hoverBg: "hover:bg-purple-100/10" },
+    { icon: Linkedin, href: "linkedin.com/in/md-amanullah-ba7b17251", color: "text-blue-500", hoverBg: "hover:bg-blue-100/10" },
+    // { icon: Twitter, href: "https://twitter.com/aniruddha_adak", color: "text-sky-500", hoverBg: "hover:bg-sky-100/10" },
+    { icon: Mail, href: "mailto:amana170829@gmail.com", color: "text-red-500", hoverBg: "hover:bg-red-100/10" },
     { icon: Users, href: "#contributors", color: "text-green-500", hoverBg: "hover:bg-green-100/10" },
   ]
 
@@ -133,8 +133,8 @@ const Footer = () => {
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <div className="mb-4 relative group w-[100px] h-[100px] overflow-hidden">
               <Image
-                src="/images/businessdev/AmitPhoto.png"
-                alt="Aniruddha Adak"
+                src="/images/businessdev/Profile_img.jpg"
+                alt="Md Amanullah"
                 width={100}
                 height={100}
                 className="rounded-full w-full h-full object-cover border-4 border-primary shadow-lg transition-all duration-300"
@@ -144,18 +144,18 @@ const Footer = () => {
 
             {[
               `© ${new Date().getFullYear()}. All rights reserved.`,
-              "Created by ANIRUDDHA ADAK",
-              "Phone: +917029155691",
-              "Email: aniruddhaadak80@gmail.com"
+              "Created by MD AMANULLAH",
+              "Phone: +919117868912",
+              "Email: amana170829@gmail.com"
             ].map((text, index) => (
               <p
                 key={index}
                 className={`mt-1 text-sm font-medium ${textColors[index % textColors.length]}  hover:scale-105 transform`}
               >
                 {text.startsWith('Phone:') ? (
-                  <>Phone: <a href="tel:+917029155691" className="hover:underline hover:text-primary">+918700851891</a></>
+                  <>Phone: <a href="tel:+917029155691" className="hover:underline hover:text-primary">+919117868912</a></>
                 ) : text.startsWith('Email:') ? (
-                  <>Email: <a href="mailto:aniruddhaadak80@gmail.com" className="hover:underline hover:text-primary">sahuami2000@gmail.com</a></>
+                  <>Email: <a href="mailto:amana170829@gmail.com" className="hover:underline hover:text-primary">amana170829@gmail.com</a></>
                 ) : text}
               </p>
             ))}

@@ -36,6 +36,12 @@ const companyLogos = [
     alt: 'JavaScript',
     style: 'shadow-yellow-400'
   },
+
+  {
+    src: "/images/skills/typescript.svg",
+    alt: 'TypeScript',
+    style: 'shadow-yellow-400'
+  },
   {
     src: "/images/skills/react-svgrepo-com.svg",
     alt: 'React',
@@ -52,24 +58,63 @@ const companyLogos = [
     style: 'shadow-orange-500'
   },
   {
+    src: "/images/skills/bitbucket.svg",
+    alt: 'Bitbucket',
+    style: 'shadow-black'
+  },
+
+
+  {
     src: "/images/skills/github.svg",
     alt: 'Github',
     style: 'shadow-black'
   },
   {
+    src: "/images/skills/vs-code.svg",
+    alt: 'VS Code',
+    style: 'shadow-black'
+  },
+  {
+    src: "/images/skills/nodejs.svg",
+    alt: 'Node js',
+    style: 'shadow-black'
+  },
+
+  {
+    src: "/images/skills/express.svg",
+    alt: 'Express js',
+    style: 'shadow-black'
+  },
+
+  
+  {
+    src: "/images/skills/mongodb.svg",
+    alt: 'Mongo DB',
+    style: 'shadow-black'
+  },
+
+  {
+    src: "/images/skills/sql.svg",
+    alt: 'SQL',
+    style: 'shadow-black'
+  },
+
+  {
+    src: "/images/skills/mysql.svg",
+    alt: 'MySql',
+    style: 'shadow-black'
+  },
+
+  {
+    src: "/images/skills/redis.svg",
+    alt: 'Redis',
+    style: 'shadow-black'
+  },
+
+  {
     src: "/images/skills/java.png",
     alt: 'java',
     style: 'shadow-yellow-500'
-  },
-  {
-    src: "/images/skills/dsa.png",
-    alt: 'DSA',
-    style: 'shadow-blue-400'
-  },
-  {
-    src: "/images/skills/oops.jpg",
-    alt: 'OPPs Concept',
-    style: 'shadow-cyan-500'
   },
   {
     src: "/images/skills/postman.svg",
